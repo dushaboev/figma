@@ -1,0 +1,95 @@
+.About{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 990px;
+    background: #e1e7f08f;
+    .About__image{
+        display: flex;
+        gap: 142px;
+        width: 1299px;
+        height: 690px;
+        .About__image-img{
+            margin-left: -25px;
+        }
+        .About__image-text{
+            display: flex;
+width: 567px;
+flex-direction: column;
+gap: 41px;
+            .About__image-text-h1{
+                color: #1B3764;
+                font-family: Cardo;
+                font-size: 45px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                letter-spacing: -0.9px;
+            }
+            .About__image-text-p{
+                color: #969AA0;
+                font-family: Inter;
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 180%;
+                letter-spacing: -0.19px;
+            }
+        }
+        .About__image-text-Counter{
+            display: flex;
+            gap: 32px;
+            .About__image-text-Counter-h2{
+                color: #969AA0;
+                font-family: Inter;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400; 
+                line-height: 170%;
+                letter-spacing: -0.18px;
+            }
+            .strong02{
+                color: #1B3764;
+font-family: Cardo;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 66px */
+letter-spacing: -1.1px;
+
+            }
+        }
+        .About__image-text-Detailes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 37px;
+            width: 477px;
+            height: 160px;
+            background: #1B3764;
+            .john{
+                display: flex;
+                flex-direction: column;
+                .john-h3{
+                    color: #FFCA42;
+font-family: Cardo;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 26.4px */
+letter-spacing: -0.44px;
+                }
+                .john-p{
+                    color: #B4C7E7;
+font-family: Inter;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 34.2px */
+letter-spacing: -0.19px;
+                }
+            }
+        }
+    }
+    
+}

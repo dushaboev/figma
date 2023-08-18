@@ -1,0 +1,66 @@
+.Whatwill-text{
+    width: 1300px;
+    height: 815px;
+    margin-top: 145px;
+    .Whatwill-text-h1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        .Whatwill-text-h1-1{
+            color: #1B3764;
+            text-align: center;
+            font-family: Cardo;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%; /* 54px */
+            letter-spacing: -0.9px;
+        }
+        .Whatwill-text-h1-liniya{
+            width: 55px;
+            height: 3px;
+            background: #FFCA42;
+        }
+    }
+    .Whatwill2{
+        display: flex;
+        align-items: center;
+        gap: 99px;
+        margin-top: 40px;
+        .Whatwill-text2{
+            display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 27px;
+        width: 611px;
+        height: 690px;
+        .Whatwill-text2-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 290px;
+            height: 299px;
+            background: #F4F8FF;
+            .Whatwill-text2-content-text{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 31px;
+                width: 224px;
+                height: 217px;
+                .Whatwill-text2-content-p{
+                    width: 224px;
+                    color: #1B3764;
+                    font-family: Cardo;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 140%; /* 33.6px */
+                    letter-spacing: -0.24px;
+                }
+            }
+        }
+    }
+}
+}

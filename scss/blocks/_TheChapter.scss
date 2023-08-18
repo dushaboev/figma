@@ -1,0 +1,144 @@
+.TheChapter{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1200px;
+    background: rgba(225, 231, 240, 0.5607843137);
+    margin-top: 144px;
+    .TheChapter-text{
+        width: 1300px;
+        height: 904px;
+        .TheChapter-text-h1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            text-align: center;
+            .TheChapter-text-h1-1{
+                color: #1B3764;
+text-align: center;
+font-family: Cardo;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 54px */
+letter-spacing: -0.9px;
+            }
+            .TheChapter-text-h1-hr{
+                width: 55px;
+height: 3px;
+background: #FFCA42;
+            }
+        }
+        .TheChapter-text-2{
+            width: 1300px;
+            height: 778px;
+            margin-top: 45px;
+            .TheChapter-text-2-content{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                width: 100%;
+                height: 540px;
+                .TheChapter-text-2-content-Bg{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #FFF;   
+box-shadow: 0px 35px 25px 0px rgba(4, 11, 20, 0.04);
+                    width: 628px;
+                    height: 250px;
+                    .TheChapter-text-2-content-Bg-h1{
+                        color: #1B3764;
+font-family: Cardo;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 28.8px */
+letter-spacing: -0.48px;
+                    }
+                    .TheChapter-text-2-content-Bg-p{
+                        width: 524px;
+height: 60px;
+flex-shrink: 0;
+color: #969AA0;
+font-family: Inter;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 34.2px */
+letter-spacing: -0.19px;
+margin-top: 10px;
+                    }
+                    .TheChapter-text-2-content-Bg-h2{
+                        display: flex;
+                        gap: 10px;
+                        margin-top: 20px;
+                        .TheChapter-text-2-content-Bg-h2-h2{
+                            color: #969AA0;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 30.6px */
+letter-spacing: -0.18px;
+.page{
+    color: #1B3764;
+font-family: Cardo;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 26.4px */
+letter-spacing: -0.22px;
+}
+                        }
+                    }
+                }
+            }
+            .TheChapter-text-2-button{
+                width: 100%;
+                height: 235px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .TheChapter-text-2-btn{
+                width: 434px;
+                height: 159px;
+                margin-top: 120px;
+                .TheChapter-text-2-btn-button{
+                    width: 434px;
+                    height: 65px;
+                    border: none;
+                    background: #FFCA42;
+                    color: #1B3764;
+text-align: center;
+font-family: Cardo;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 23.75px */
+letter-spacing: 0.38px;
+                }
+                .TheChapter-text-2-btn-p{
+                    color: #969AA0;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 30.6px */
+.TheChapter-text-2-btn-p-u{
+    color: #1B3764;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%;
+text-decoration-line: underline;
+}
+                }
+            }
+        }
+    }
+}

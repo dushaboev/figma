@@ -1,0 +1,99 @@
+.Blog{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1016px;
+    background: rgba(225, 231, 240, 0.5607843137);
+    .Blog__element{
+        gap: 60px;
+        width: 1300px;
+        height: 726px;
+        .Blog__element__text{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .Blog__element__text-h1{
+                color: #1B3764;
+font-family: Cardo;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 54px */
+letter-spacing: -0.9px;
+            }
+            .Blog__element__text-hr{
+                width: 55px;
+height: 3px;
+background: #FFCA42;
+            }
+        }
+        .Blog__content1{
+            display: flex;
+            gap: 35px;
+            margin-top: 47px;
+            .Blog__element__content__image{
+            width: 410px;
+            height: 600px;
+            // border: 1px solid;
+            background: #FFF;
+            box-shadow: 0px 35px 25px 0px rgba(4, 11, 20, 0.04);
+.Blog__elemen__content__image__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // width: 100%;
+    // height: 268px;
+    // border: 1px solid;
+    .Blog__element__content__image-h1{
+        color: #1B3764;
+        font-family: Cardo;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 28.8px */
+        letter-spacing: -0.48px;
+        margin-left: 31px;
+    }
+.Blog__element__content__image-p{
+    width: 347px;
+    height: 95px;
+    color: #969AA0;
+font-family: Inter;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 34.2px */
+letter-spacing: -0.19px;
+margin-top: 14px;
+}
+.srog{
+    display: flex;
+    gap: 100px;
+    margin-top: 27px;
+    margin-right: 17px;
+    .srog__u{
+        color: #1B3764;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 125%; /* 22.5px */
+        letter-spacing: 0.36px;
+    }
+    .srog__h2{
+        color: #1B3764;
+        text-align: right;
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%; /* 21.25px */
+    }
+}
+}
+}
+}
+}
+}
